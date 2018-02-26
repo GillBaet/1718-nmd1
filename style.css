@@ -1,0 +1,35 @@
+body{
+    background-color: #C47934;
+    background-image: url(images/IMG_1937_Bijgesneden2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.container{
+    width: 500px;
+    height: auto;
+    margin: auto;
+
+    background-color: rgba(165, 161, 161, 0.15);
+    border-radius: 1%;
+
+    vertical-align: top;
+}
+
+table{
+    padding: 10px;
+    align-self: auto;
+}
+
+th{
+    text-align: left;
+    width: 120px;
+}
+
+td{
+    padding-left: 20px;
+}
