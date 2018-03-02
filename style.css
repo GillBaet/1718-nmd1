@@ -10,7 +10,7 @@ p{
 }
 
 .container{
-    width: 500px;
+    width: 600px;
     height: auto;
     margin: auto;
 
@@ -32,4 +32,9 @@ th{
 
 td{
     padding-left: 20px;
+}
+
+.Logo{
+    width: 125px;
+    height: 75px;
 }
