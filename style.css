@@ -1,12 +1,25 @@
-body{
-    background-color: #C47934;
+html{
     background-image: url(images/IMG_1937_Bijgesneden2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    /*background-color: rgb(255, 255, 255);
+    background:radial-gradient(rgb(255, 204, 153),rgb(153, 51, 0));*/
+    
 }
+
+body{
+    background-image: url("../images/ProfileBlackWhite.jpg");
+    
+    background-size:10%;
+    background-position: top right;
+}
+p, table{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
+    padding:10px;
 }
 
 .container{
@@ -14,10 +27,36 @@ p{
     height: auto;
     margin: auto;
 
+}
+
+.profile{
+    width: 500px;
+    height: auto;
+    margin: auto;
+
     background-color: rgba(165, 161, 161, 0.15);
     border-radius: 1%;
 
     vertical-align: top;
+
+
+    border-radius: 1%;
+
+    float: left;
+}
+
+.profileRight{
+    height: auto;
+    margin: auto;
+
+    padding-left:30px   ;
+
+    float: left;
+}
+
+.profilepic{
+    width:200px;
+    border-radius: 1%;
 }
 
 table{
@@ -25,16 +64,36 @@ table{
     align-self: auto;
 }
 
+
 th{
     text-align: left;
-    width: 120px;
+    vertical-align:top;
+    width: 130px;
+    padding:5px 0px 5px 0px;
 }
 
 td{
     padding-left: 20px;
+    padding:5px 0px 5px 5px;
 }
 
 .Logo{
     width: 125px;
     height: 75px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover { 
+    color: grey;
+}
+
+/*.gradient{
+    background: -webkit-linear-gradient(#000000, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:white;
+}*/
