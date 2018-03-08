@@ -1,11 +1,12 @@
 body{  
     max-width:1920px;  
 }
-p, table{
+p, h1{
     font-family:Arial, Helvetica, sans-serif;
 }
-/*p{
-}*/
+p{
+    font-size: 30pt;
+}
 .profileRight{
     max-width: 1920px;
     width:100%;
@@ -21,6 +22,7 @@ p, table{
 #pinfoLink{
     margin-left:46.5%;
     padding-top:4%;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .profile{
@@ -32,34 +34,22 @@ p, table{
 }
 #profileContent{
     margin-left:42.5%;
-    padding-top:20%;
-}
-/*#pinfo .profile p{
-   
-}*/
-table{
-    text-align:left;
-    margin-left:5%;
+    padding-top:14%;
 
 }
-th{
-padding-left:5%;
+.content{
+    padding:4px;
 }
-td{
-}
-tr{
-    padding-left:5%;
-}
+
 #motivatie{
     height: 100vh;
-    font-size:1.2em;
-    
+
 }
 #motivatie h1{
     padding-top:20%;
     font-size:1.4em;
     margin-left:40%;
-
+    margin-bottom: 0.5%;
 
 }
 #motivatie p {
@@ -82,11 +72,10 @@ a:hover {
     padding-bottom:20%;
 }
 .linkmotivatie{
-    margin-left:47.5%;
+    margin-left:10%;
+    font-family:Arial, Helvetica, sans-serif;
 }
-/*.gradient{
-    background: -webkit-linear-gradient(#000000, #FFFFFF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color:white;
-}*/
+.up{
+    margin-top:17%;
+    padding-left: 7%;
+}
