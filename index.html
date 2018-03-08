@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+
 
     <link rel="icon" href="images/LOGOArteveldeHogeschool.png">
 
@@ -13,72 +15,64 @@
 </head>
 <body>
     <div class="container">
-
+        <div class="profileRight">
+                    <img class="profilepic" src="images/ProfileBlackWhite.jpg" alt="Profile" title="Profile picture, black and white">
+                    <p id="pinfoLink"><a href="#pinfo">Persoonlijke info</a></p>
+      </div> 
+        <div id="pinfo">
+        
         <div class="profile">
-            <p>Hallo, hier vindt u bepaalde informatie over: <br>
-                Gilles Baetslé.</p>
+        
+            
 
-            <table>
-                    <tr>
-                        <th>Voornaam</th>
-                        <td>Gilles</td>
-                    </tr>
-                    <tr>
-                        <th>Naam</th>
-                        <td>Baetslé</td>
-                    </tr>
+           <div id="profileContent">
+                    <div>
+                        <p>Voornaam:
+                        Gilles</p>
+                    </div>
+                    <div>
+                        <p>Naam: Baetslé</p>
+                    </div>
                         
-                    <tr>
-                        <th>Leeftijd</th>
-                        <td>18</td>
-                    </tr>
+                    <div>
+                        <p>Leeftijd18</p>
+                    </div>
                         
-                    <tr>
-                        <th>Woont in</th>
-                        <td>Merelbeke</td>
-                    </tr>
+                    <div>
+                        <p>Woont in: Merelbeke</p>
+                    </div>
                     
-                    <tr>
-                        <th>Studeert in</th>
-                        <td>Mariakerke</td>
-                    </tr>
-                    <tr>
-                        <th>Zit op school op</th>
-                        <td><img class="Logo" src="images/LOGOArteveldeHogeschool.png" alt="Logo" title="Logo ArteveldeHogeschool"></td>
+                    <div>
+                        <p>Studeert inMariakerke</p>
+                    </div>
+                    <div>
+                        <p>Zit op school op</th><img class="Logo" src="images/LOGOArteveldeHogeschool.png" alt="Logo" title="Logo ArteveldeHogeschool"></p>
                         
-                    </tr>
-                    <tr>
-                        <th>E-mail school</th>
-                        <td><a href="mailto:gillbaet@student.arteveldehs.be">gillbaet@student.arteveldehs.be</a></td>
+                    </div>
+                    <div>
+                        <p>E-mail school: <a href="mailto:gillbaet@student.arteveldehs.be">gillbaet@student.arteveldehs.be</a></p>
 
-                    </tr>       
-                    <tr>
-                        <th>Klas</th>
-                        <td>1CMO Ba(1)</td>
-                    </tr>
-                    <tr>
-                        <th>Aandoening</th>
-                        <td>Dyslexie</td>
-                    </tr>
+                    </div>    
+                    <div>
+                        <p>Klas: 1CMO Ba(1)</p>
+                    </div>
+                    <div>
+                        <p class="padding">AandoeningDyslexie</p>
+                    </div>
+                </div>
+                <a href="#motivatie" class="linkmotivatie">Motivatie</a>
 
-                    <tr>
-                        <th>Waarom GDM?</th>
-                        <td>Ik wou iets vernieuwend doen, ook iets meer praktijkgericht. De afstudeerrichting CMO - PhotoDesign ligt in de lijn van mijn interesse fotografie. Dit zou dan ook mijn keuze zijn als afstudeerrichting.</td>
-                    </tr>
-
-                    <tr>
-                        <th>Bladvulling</th>
-                        <td class="gradient">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ex aut, maiores commodi atque nostrum quibusdam rem recusandae quidem libero cum ab nam modi. Aliquam iste sapiente blanditiis labore natus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ex aut, maiores commodi atque nostrum quibusdam rem recusandae quidem libero cum ab nam modi. Aliquam iste sapiente blanditiis labore natus.Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
-                    </tr>
-                </table>  
-            </div>      
+            </div>
+            </div>  
+        </div>    
     </div>  
-    
-    <div class="profileRight">
-        <img class="profilepic" src="images/ProfileBlackWhite.jpg" alt="Profile" title="Profile picture, black and white">
-    </div>
+    <div id="motivatie">
+    <h1>Waarom GDM?</h1>
 
+    <p>Ik wou iets vernieuwend doen, ook iets meer praktijkgericht. De afstudeerrichting CMO - PhotoDesign ligt in de lijn van mijn interesse fotografie. Dit zou dan ook mijn keuze zijn als afstudeerrichting.</p>
+    </div>
    
-    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
