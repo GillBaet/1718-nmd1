@@ -22,7 +22,6 @@ $('a[href*="#"]')
         }, 1000, function() {
           // Callback after animation
           // Must change focus!
-        
         });
       }
     }
